@@ -54,7 +54,7 @@ Once you have an AWS account it is time to create your web server.
 
 1. For the network settings, make sure the `auto-assign public IP` address is enabled. For the `Firewall (security group)` select the option to `Create security group` if this is the first server that you are creating. Allow SSH, HTTP, and HTTPS traffic from anywhere.
 
-   If you have created a server before, then you already have a security group that you can use, and you should not clutter up your account with additional ones. In that case, use the option to `Select existing security group` and select the name of the exiting security group.
+   If you have created a server before, then you already have a security group that you can use, and you should not clutter up your account with additional ones. In that case, use the option to `Select existing security group` and select the name of the existing security group.
 
    A security group represents the rules for allowing access to your servers. Security group rules specify both the port that is accessible on your server, and the source IP address that requests are allowed from. For example, you could allow only port 443 (the secure HTTPS port) from your development environment's IP address. However, doing so would mean that your web application would not be available from any other computer. You can learn more about security groups from the [AWS documentation](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html).
 
