@@ -24,7 +24,7 @@ As part of the installation of Caddy we created two links in the Ubuntu user's h
 
 - **HTML files**: `~/public_html`
 
-  This is the directory of files that Caddy servers up when requests are made to the root or your web server. This is configured in the Caddyfile discussed above. If you actually look at the Caddyfile you will see that the static file server is mapped to `/usr/share/caddy`. That is the location that the file link in the Ubuntu user's home directory, `~/public_html`, is pointing to.
+  This is the directory of files that Caddy servers up when requests are made to the root or your web server. This is configured in the Caddyfile discussed above. If you actually look at the Caddyfile you will see that the static file server is mapped to `/usr/share/caddy`. That is the location that the file link in `~/public_html` is pointing to.
 
   ```
   :80 {
