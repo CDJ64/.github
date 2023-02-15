@@ -15,8 +15,8 @@ The CSS display property allows you to change how an HTML element is displayed b
 | Value  | Meaning                                                                                                                      |
 | ------ | ---------------------------------------------------------------------------------------------------------------------------- |
 | none   | Don't display this element. The element still exists, but the browser will not render it.                                    |
-| block  | Display this element with a width that fills its parent element. A `p` or `div` element have block display by default.       |
-| inline | Display this element with a width that is only as big as its content. A `b` or `span` element have block display by default. |
+| block  | Display this element with a width that fills its parent element. A `p` or `div` element has block display by default.        |
+| inline | Display this element with a width that is only as big as its content. A `b` or `span` element has block display by default.  |
 | flex   | Display this element's children in a flexible orientation.                                                                   |
 | grid   | Display this element's children in a grid orientation.                                                                       |
 
