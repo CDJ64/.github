@@ -2,7 +2,7 @@
 
 📖 **Suggested reading**: [MDN Debugging CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Debugging_CSS)
 
-CSS is extremely powerful, but sometimes is can be very frustrating to figure out why your page is not rendering the way that you expect. To help you understand why things are rendering the way that are you can use the browser's developer tool to inspect the CSS properties and visualize the HTML layout. Using the Google Chrome debugger you can access the developer tools by right click on the HTML page element that you want to debug and select the `inspect` option. You can experience this by creating a directory that contains the following content is an HTML (`index.html`) and CSS file (`index.css`). This simple example has one paragraph of text and uses flex to center the text.
+CSS is extremely powerful, but sometimes is can be very frustrating to figure out why your page is not rendering the way that you expect. To help you understand why things are rendering the way that are you can use the browser's developer tool to inspect the CSS properties and visualize the HTML layout. Using the Google Chrome debugger you can access the developer tools by right click on the HTML page element that you want to debug and select the `inspect` option. You can experience this by creating a directory that contains the following content, composed of an HTML file (`index.html`) and a CSS file (`index.css`). This simple example has one paragraph of text and uses flex to center the text.
 
 ```html
 <!DOCTYPE html>
@@ -57,7 +57,7 @@ This example has a small problem. Each element has with a blue border and some p
 
 ![Debugging CSS demo](debuggingCssExample.gif)
 
-Now, notice that if you make resize the browser so that it is wider the centered text will appear left justified.
+Now, notice that if you resize the browser so that it is wider the centered text will appear left justified.
 
 ![Debugging CSS centered text](debuggingCssCenteredText.jpg)
 
