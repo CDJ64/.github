@@ -57,7 +57,7 @@ This example has a small problem. Each element has with a blue border and some p
 
 ![Debugging CSS demo](debuggingCssExample.gif)
 
-Now, notice that if you resize the browser so that it is wider the centered text will appear left justified.
+Now, notice that if you resize the browser so that it is wider, the centered text will appear left justified.
 
 ![Debugging CSS centered text](debuggingCssCenteredText.jpg)
 
