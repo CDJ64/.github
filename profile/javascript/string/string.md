@@ -47,7 +47,7 @@ console.log(s.split(':'));
 console.log(s.startsWith('Ex'));
 // OUTPUT: true
 console.log(s.endsWith('조선글'));
-// OUTPUT: false
+// OUTPUT: true
 console.log(s.toLowerCase());
 // OUTPUT: example:조선글
 ```
