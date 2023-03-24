@@ -151,7 +151,7 @@ There is a lot more functionality that MongoDB provides, but this is enough to g
 
 ## Keeping your keys out of your code
 
-You need to protect your credentials for connecting to your Mongo database. One common mistake is to check them into your code and then post it to a public GitHub repository. Instead you can load your credentials when the application executes. One common way to do that, is to read them from environment variables. The JavaScript `process.env` object provides access to the environment.
+You need to protect your credentials for connecting to your Mongo database. One common mistake is to check them into your code and then post it to a public GitHub repository. Instead you can load your credentials when the application executes. One common way to do that is to read them from environment variables. The JavaScript `process.env` object provides access to the environment.
 
 ```Javascript
 const userName = process.env.MONGOUSER;
@@ -173,7 +173,7 @@ For your production environment, you will add your MongoDB Atlas credentials by 
 sudo vi /etc/environment
 ```
 
-In the environment file will find that the credentials are already set to access the class demo MongoDB server. You want to replace those values with your own values so that your data will be stored in your server.
+In the environment file you will find that the credentials are already set to access the class demo MongoDB server. You want to replace those values with your own values so that your data will be stored in your server.
 
 ```sh
 export MONGOUSER=<yourmongodbusername>
@@ -189,7 +189,7 @@ export MONGOPASSWORD=toomanysecrets
 export MONGOHOSTNAME=cs260.nan123cs.mongodb.net
 ```
 
-You then need to tell your Simon and Start Up services to use the new values found in the environment file. To do this you need to tell our service service daemon, PM2, to reload its stored environment for all services that it manages. You then need to tell PM2 to save the new configuration so that it will persist when your server restarts. Run these commands from a SSH session on your production server.
+You then need to tell your Simon and Start Up services to use the new values found in the environment file. To do this you need to tell our service daemon, PM2, to reload its stored environment for all services that it manages. You then need to tell PM2 to save the new configuration so that it will persist when your server restarts. Run these commands from a SSH session on your production server.
 
 ```sh
 pm2 restart all --update-env
